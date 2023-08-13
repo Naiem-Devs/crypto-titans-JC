@@ -1,0 +1,933 @@
+/* Big screen :1200px. */
+@media (min-width: 1300px) and (max-width: 1500px) {
+    .time-line-border {
+        width: 1920px;
+        max-width: unset;
+        left: -224px;
+    }
+
+    .timeline_blk {
+        flex: 0 0 16%;
+        padding-left: 17px;
+    }
+
+    .timeLine_wrp {
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+    .roadmap-Area:before {
+        display: none;
+    }
+
+    .hero_img {
+        scale: .8;
+    }
+
+    .market-content>i {
+        max-width: 600px;
+    }
+
+    .side_overly:after,
+    .side_overly:before {
+        height: 180px;
+    }
+
+    .news_blk {
+        max-width: 1083px;
+    }
+
+    .news_blk>img {
+        max-width: 580px;
+    }
+
+    .blog_blk {
+        width: 400px;
+    }
+
+    .hero_content {
+        padding-left: 30px;
+    }
+
+    .market-content {
+        max-width: 1201px;
+        margin-inline: auto;
+    }
+
+    .news_slider.arrow_style .owl-nav {
+        right: -10%;
+    }
+
+    .nft_blk_content h4 {
+        font-size: 22px;
+    }
+
+    .nft_blk_content ul li h5 {
+        font-size: 15px;
+    }
+
+    .token_overview_blk ul li h5 {
+        font-size: 16px;
+    }
+
+    .liquidity_blk h1 {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+    .time-line-border {
+        width: 1920px;
+        max-width: unset;
+        left: -224px;
+        display: none;
+    }
+
+    .timeline_blk {
+        flex: 0 0 25%;
+        padding-left: 17px;
+        margin: unset !important;
+        transform: unset !important;
+        justify-content: center;
+        border-radius: 16px;
+        border: 2px solid rgba(243, 170, 0, 0.25);
+        background: rgba(17, 17, 17, 0.50);
+        backdrop-filter: blur(7.5px);
+        padding: 20px;
+        max-width: 350px;
+    }
+
+    .timeLine_wrp {
+        justify-content: center;
+        gap: 20px;
+        width: max-content;
+        padding-bottom: 10px;
+    }
+
+    .timeLine_wrp_main {
+        overflow: auto;
+    }
+
+    .roadmap-Area {
+        padding-bottom: 0;
+    }
+}
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+    body {
+        font-size: 16px;
+    }
+
+    :root {
+        --f18: 16px;
+        --f20: 18px;
+        --f24: 20px;
+        --f30: 24px;
+        --f36: 28px;
+        --f48: 36px;
+        --f60: 48px;
+    }
+
+    .hero_img {
+        scale: .8;
+    }
+
+    .market-content>i {
+        max-width: 530px;
+    }
+
+    .side_overly:after,
+    .side_overly:before {
+        height: 180px;
+    }
+
+    .news_blk {
+        max-width: 1083px;
+    }
+
+    .news_blk>img {
+        max-width: 480px;
+    }
+
+    .blog_blk {
+        width: 400px;
+    }
+
+    .hero_content {
+        padding-left: 30px;
+    }
+
+    .market-content {
+        max-width: 950px;
+        margin-inline: auto;
+    }
+
+    .news_slider.arrow_style .owl-nav {
+        right: -10%;
+    }
+
+    .hero_content h1 {
+        font-size: var(--f60);
+    }
+
+    .about-content p,
+    .about-content h1 {
+        max-width: 90%;
+        margin-inline: auto;
+    }
+
+    .about_img img {
+        height: 270px;
+        object-fit: cover;
+    }
+
+    .titans_content ul {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .nft_blk {
+        flex: 0 0 23%;
+    }
+
+    .hero_imgs {
+        max-width: 400px;
+        margin-inline: auto;
+    }
+
+    .liquidity_blk h1 {
+        font-size: 40px;
+    }
+
+    .liquidity_blk ul li p {
+        font-size: 12px;
+        gap: 10px;
+    }
+
+    .Token_wrp {
+        justify-content: center;
+    }
+
+    .Token_dis_blk {
+        flex: 0 0 23%;
+    }
+
+    .token_overview_blk ul li h5 {
+        font-size: 13px;
+    }
+
+    img.token_overview_img {
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .sec_title h1 {
+        font-size: 45px;
+    }
+
+    .liquidity_blk h2 {
+        font-size: 22px;
+    }
+
+    .time-line-border {
+        width: 1920px;
+        max-width: unset;
+        left: -224px;
+        display: none;
+    }
+
+    .timeline_blk {
+        flex: 0 0 25%;
+        padding-left: 17px;
+        margin: unset !important;
+        transform: unset !important;
+        justify-content: center;
+        border-radius: 16px;
+        border: 2px solid rgba(243, 170, 0, 0.25);
+        background: rgba(17, 17, 17, 0.50);
+        backdrop-filter: blur(7.5px);
+        padding: 20px;
+        max-width: 350px;
+    }
+
+    .timeLine_wrp {
+        justify-content: center;
+        gap: 20px;
+        width: max-content;
+        padding-bottom: 10px;
+    }
+
+    .timeLine_wrp_main {
+        overflow: auto;
+    }
+
+    .roadmap-Area {
+        padding-bottom: 0;
+    }
+}
+
+
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    body {
+        font-size: 16px;
+    }
+
+    :root {
+        --f18: 16px;
+        --f20: 18px;
+        --f24: 20px;
+        --f30: 22px;
+        --f36: 24px;
+        --f48: 32px;
+        --f60: 36px;
+    }
+
+    .hero_img {
+        scale: .8;
+        margin: auto;
+    }
+
+    .market-content>i {
+        max-width: 380px;
+    }
+
+    .side_overly:after,
+    .side_overly:before {
+        height: 180px;
+    }
+
+    .news_blk {
+        max-width: 1083px;
+    }
+
+    .news_blk>img {
+        max-width: 375px;
+    }
+
+    .blog_blk {
+        width: 400px;
+    }
+
+    .hero_content {
+        text-align: center;
+    }
+
+    .hero_content_link {
+        justify-content: center;
+    }
+
+    .hero_content p {
+        margin-inline: auto;
+    }
+
+    .news-content h1 {
+        font-size: 42px;
+    }
+
+    .market-content {
+        max-width: 721px;
+        margin-inline: auto;
+    }
+
+    .news_slider.arrow_style .owl-nav {
+        right: -10%;
+    }
+
+    .hero_content h1 {
+        font-size: var(--f60);
+    }
+
+    .about-content p,
+    .about-content h1 {
+        max-width: 90%;
+        margin-inline: auto;
+    }
+
+    .about_img img {
+        height: 270px;
+        object-fit: cover;
+    }
+
+    .hero-area {
+        height: auto;
+        padding-top: 180px;
+    }
+
+    .market-text h1 {
+        font-size: 40px;
+    }
+
+    .partners-area .partners_tab_btn {
+        gap: 20px 45px;
+    }
+
+    .partners-tab_content ul li {
+        flex: 0 0 30%;
+    }
+
+    .news_letter {
+        max-width: 500px;
+        margin: 40px auto 0;
+        text-align: center;
+    }
+
+    .titans_content ul {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .nft_blk {
+        flex: 0 0 31%;
+    }
+
+    .nft_wrp {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .titans-area .col-lg-4 {
+        width: 70%;
+        margin: auto;
+    }
+
+    .titans-area .col-lg-8 {
+        width: 70%;
+        margin: auto;
+        margin-top: 25px;
+    }
+
+    .nft.sec_title {
+        text-align: center;
+    }
+
+    .nft_filter {
+        justify-content: center;
+    }
+
+
+
+
+    .Token_wrp {
+        justify-content: center;
+    }
+
+    .Token_dis_blk {
+        flex: 0 0 31%;
+    }
+
+    img.token_overview_img {
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .sec_title h1 {
+        font-size: 40px;
+    }
+
+    .liquidity_blk h2 {
+        font-size: 22px;
+    }
+
+    .hero_imgs {
+        max-width: 400px;
+        margin-inline: auto;
+    }
+
+    .token_overview_blk {
+        margin-bottom: 24px;
+    }
+
+
+
+    .token_overview_blk ul li p {
+        font-size: 14px;
+    }
+
+    .liquidity_blk {
+        margin-bottom: 25px;
+    }
+
+    .timeLine_wrp {
+        flex-direction: column;
+    }
+
+    img.time-line-border {
+        display: none;
+    }
+
+    .roadmap-Area {
+        padding-bottom: 0;
+    }
+
+    .time-line-border {
+        width: 1920px;
+        max-width: unset;
+        left: -224px;
+        display: none;
+    }
+
+    .timeline_blk {
+        flex: 0 0 25%;
+        padding-left: 17px;
+        margin: unset !important;
+        transform: unset !important;
+        justify-content: center;
+        border-radius: 16px;
+        border: 2px solid rgba(243, 170, 0, 0.25);
+        background: rgba(17, 17, 17, 0.50);
+        backdrop-filter: blur(7.5px);
+        padding: 20px;
+        max-width: 350px;
+    }
+
+    .timeLine_wrp {
+        justify-content: center;
+        gap: 20px;
+        width: max-content;
+        padding-bottom: 10px;
+    }
+
+    .timeLine_wrp_main {
+        overflow: auto;
+    }
+
+    .roadmap-Area {
+        padding-bottom: 0;
+    }
+
+}
+
+
+/* small screen :320px. */
+@media (max-width: 767px) {
+    body {
+        font-size: 14px;
+    }
+
+    :root {
+        --f18: 15px;
+        --f20: 16px;
+        --f24: 18px;
+        --f30: 20px;
+        --f36: 22px;
+        --f48: 26px;
+        --f60: 32px;
+    }
+
+    .sec_title span {
+        font-size: 14px;
+        letter-spacing: 3.5px;
+    }
+
+    .token_hero .sec_title span {
+        letter-spacing: 2.1px;
+    }
+
+    .token_hero .hero_content p {
+        margin: 20px 0;
+    }
+
+    .token_hero .sec_title h1 {
+        font-size: 32px;
+    }
+
+    .sec_title {
+        text-align: center;
+    }
+
+    .news-content h1 a {
+        display: none;
+    }
+
+    .hero_img {
+        scale: .8;
+        margin: auto;
+        height: auto;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    .hero_img img {
+        position: unset;
+    }
+
+    .market-content>i {
+        max-width: 380px;
+        display: none;
+    }
+
+    .side_overly:after,
+    .side_overly:before {
+        height: 180px;
+        opacity: 0;
+    }
+
+    .news_blk {
+        max-width: 350px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .news_blk_text {
+        transform: unset;
+        border-radius: 0;
+        background: no-repeat;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .news_blk>img {
+        max-width: 350px;
+        margin: auto;
+    }
+
+    .blog_blk {
+        width: 350px;
+    }
+
+    .blog_wrp {
+        padding: 0 12px;
+    }
+
+    .hero_content {
+        text-align: center;
+    }
+
+    .hero_content_link {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .hero_content p {
+        margin-inline: auto;
+    }
+
+    .news-content h1 {
+        font-size: 32px;
+        line-height: 1;
+        max-width: 300px;
+        margin-inline: auto;
+        letter-spacing: 0;
+    }
+
+    .market-content {
+        max-width: 721px;
+        margin-inline: auto;
+        background: no-repeat;
+        margin-top: -15px;
+        text-align: center;
+    }
+
+    .market-text p {
+        max-width: 90%;
+        margin-inline: auto;
+    }
+
+    .market-content a {
+        margin: auto;
+    }
+
+    .market-content:before {
+        display: none;
+    }
+
+    .news_slider.arrow_style .owl-nav {
+        right: -10%;
+        display: none;
+    }
+
+    .hero_content h1 {
+        font-size: var(--f60);
+    }
+
+    .about-content p,
+    .about-content h1 {
+        max-width: 90%;
+        margin-inline: auto;
+    }
+
+    .about_img img {
+        height: 270px;
+        object-fit: cover;
+    }
+
+    .hero-area {
+        height: auto;
+        padding-top: 160px;
+        min-height: auto;
+    }
+
+    section.hero-area.token_hero {
+        padding-top: 119px;
+    }
+
+    .header-area {
+        padding: 20px 0;
+    }
+
+    .logo-area {
+        max-width: 50px;
+    }
+
+    .market-text h1 {
+        font-size: 32px;
+    }
+
+    .partners-area .partners_tab_btn {
+        gap: 12px 45px;
+        flex-wrap: unset;
+        width: max-content;
+        overflow: auto;
+        margin-bottom: 30px;
+    }
+
+    .partners-area .partners_btns {
+        overflow: auto;
+    }
+
+    .partners-tab_content ul li {
+        flex: 0 0 45%;
+    }
+
+    .news_letter {
+        max-width: 500px;
+        margin: 40px auto 0;
+        text-align: center;
+    }
+
+    .social-content ul a {
+        font-size: 20px;
+        width: 46px;
+        height: 46px;
+    }
+
+    .social-content ul {
+        gap: 15px;
+    }
+
+    .footer_nav {
+        margin: 30px 0 0;
+    }
+
+    .news_letter p {
+        font-size: 14px;
+    }
+
+    .footer_nav ul li a {
+        font-size: 16px;
+    }
+
+    .footer-area h5 {
+        font-size: 16px;
+    }
+
+    .footer-area .row {
+        padding-bottom: 18px;
+    }
+
+    .footer_btm p {
+        font-size: 14px;
+    }
+
+    .footer_btm {
+        flex-direction: column;
+        gap: 10px 0;
+    }
+
+    img.hero-bg-1 {
+        bottom: 25px;
+        height: 200px;
+        object-fit: cover;
+        opacity: .2;
+    }
+
+    section.hero-area.token_hero img.hero-bg-1 {
+        bottom: 0;
+        height: 754px;
+        opacity: .4;
+    }
+
+    .footer-area:before {
+        top: auto;
+        bottom: 0;
+    }
+
+    .titans_content ul {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .titans_content ul li {
+        flex: 0 0 40%;
+    }
+
+    .nft_blk {
+        flex: 0 0 90%;
+    }
+
+    .nft_btn {
+        width: 100%;
+    }
+
+    .nft-area {
+        padding-bottom: 0;
+    }
+
+    .nft_btn a {
+        width: 100%;
+    }
+
+    .nft_wrp {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .titans-area .col-lg-4 {
+        width: 100%;
+        margin: auto;
+    }
+
+    .titans-area .col-lg-8 {
+        width: 100%;
+        margin: auto;
+        margin-top: 25px;
+    }
+
+    .nft.sec_title {
+        text-align: center;
+    }
+
+    .nft_filter {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .select_box {
+        width: 100%;
+    }
+
+    .select_box .nice-select {
+        width: 100%;
+        max-width: 100%;
+        float: initial;
+    }
+
+    .titans_content p {
+        font-size: 14px;
+    }
+
+    .titans_content {
+        padding: 20px;
+    }
+
+
+
+
+
+
+    .Token_wrp {
+        justify-content: center;
+    }
+
+    .Token_dis_blk {
+        flex: 0 0 80%;
+    }
+
+    img.token_overview_img {
+        height: 300px;
+        object-fit: cover;
+        width: 100%;
+    }
+
+
+    .liquidity_blk h2 {
+        font-size: 22px;
+    }
+
+    .hero_imgs {
+        max-width: 319px;
+        margin: 50px auto;
+    }
+
+    .token_overview_blk {
+        margin-bottom: 24px;
+    }
+
+    .token_overview_blk ul li p {
+        font-size: 14px;
+    }
+
+    .liquidity_blk {
+        margin-bottom: 25px;
+    }
+
+    .timeLine_wrp {
+        width: max-content;
+        gap: 20px;
+        padding-bottom: 10px;
+    }
+
+    .timeLine_wrp_main {
+        overflow: auto;
+    }
+
+    timeLine_wrp_main {
+        overflow: auto;
+    }
+
+    img.time-line-border {
+        display: none;
+    }
+
+    .roadmap-Area {
+        padding-bottom: 0;
+    }
+
+    .Total_supply {
+        flex-direction: column;
+        align-items: start;
+        text-align: left;
+    }
+
+    .Total_supply h1 {
+        font-size: 28px;
+    }
+
+    .Total_supply .sec_title {
+        text-align: left;
+        margin-bottom: 15px;
+    }
+
+    .Total-buySell {
+        margin-bottom: 40px;
+    }
+
+    .sec_title.Token_title {
+        margin-top: 35px;
+    }
+
+    .timeline_blk {
+        margin: unset !important;
+        border-radius: 16px;
+        border: 2px solid rgba(243, 170, 0, 0.25);
+        background: rgba(17, 17, 17, 0.50);
+        backdrop-filter: blur(7.5px);
+        transform: unset !important;
+        max-width: 300px;
+        padding: 17px;
+    }
+
+}
+
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+        width: 450px
+    }
+
+}
